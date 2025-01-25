@@ -18,4 +18,4 @@ async def keyword(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Sorry, I don't understand that.")
 
 def register(kall):
-    kall.add_handler(MessageHandler(filters.TEXT, keyword)
+    kall.add_handler(MessageHandler(filters.TEXT, keyword))

@@ -9,5 +9,5 @@ async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "Type a keyword to see what happens!"
     )
 
-def register(kall)
-    kall.add_handler(CommanrHandler("help", help))
+def register(kall):
+    kall.add_handler(CommandHandler("help", help))
