@@ -15,3 +15,7 @@ trainer = ListTrainer(chatbot)
 
 for pair in data:
     trainer.train(pair)
+
+def gen_response(msg: str):
+    response = chatbot.get_response(msg)
+    return response
